@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cube Clash | Simple JS game</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="fumnanyaD" />
+    <link rel="stylesheet" href="styles/index.css" /> 
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+  </head>
+  <body>
+     <div id="btn-container">
+    <button class="btn btn-success" onmousedown="movedown()" onmouseup="stopmove()" onclick="movedown()">BACK</button>
+    <button class="btn btn-danger" onmousedown="moveup()" onmouseup="stopmove()" onclick="moveup()">FORWARD</button>
+    <br>
+    <button class="btn btn-warning" onmousedown="moveleft()" onmouseup="stopmove()" onclick="moveleft()">LEFT</button>
+    <button class="btn btn-warning" onmousedown="moveright()" onmouseup="stopmove()" onclick="moveright()">RIGHT</button>
+    </div>
+    <div id="container">
+    <h1>Cubes Clash</h1>
+    <button class="btn btn-primary" onclick="startGame()">Play</button>
+    <footer>
+      <p>&copy; 2017</p> 
+      <p><a href="qilobyt.herokuapp.com" > qilobyt Solutions</a></p>
+      </footer>
+    </div>
+  </body>
+  <script src="scripts/index.js"></script> 
+</html>

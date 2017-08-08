@@ -1,0 +1,30 @@
+#container {
+  margin: 10px auto;
+    width: 50%;
+    border: 3px solid #FF8C00;
+    padding: 10px;
+    text-align: center;
+    
+  }
+
+canvas {
+	margin-left: 490px;
+	margin-top: 23px;
+    border:1px solid #FF4500;
+    background-color: #f1f1f1;
+    
+   }
+   
+#btn-container {
+	margin-left: 550px;
+	margin-top: 7px;
+	}   
+@media screen and (max-width:480px){
+	h1,footer{display: none;}
+	canvas {height: 360px;}
+	.btn {height: 20px;padding: 10px;}
+  canvas,#btn-container {
+  	margin-left: 25px;
+  	}
+}	
+	
